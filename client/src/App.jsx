@@ -3,7 +3,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [productList, setProductList] = useState([])
+  const [productList, setProductList] = useState([
+    {id: 1, name: 'Sample Product', imgUrl: 'sample.jpg', info: {}, category: 1}
+  ])
   const [categoryList, setCategoryList] = useState([])
 
   return (
