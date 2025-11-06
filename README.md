@@ -1,2 +1,3 @@
 # Product Catalogue Maker
 
+MERN
